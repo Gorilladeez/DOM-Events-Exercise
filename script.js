@@ -13,7 +13,7 @@ function inputLength() {
 // This creates a remove button which gets added to each li element.
 function createRemoveButton (list) {
 	var btn = document.createElement("button");
-	btn.classList.add('btnStyle', 'steph');
+	btn.classList.add('btnStyle');
 	btn.innerHTML = "Remove";
 	btn.onclick = function() {
 		btn.parentElement.remove();
